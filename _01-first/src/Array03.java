@@ -1,5 +1,3 @@
-import java.lang.module.FindException;
-import java.sql.Array;
 import java.util.Scanner;
 
 public class Array03 {
@@ -15,7 +13,6 @@ public class Array03 {
 
         if (i != -1) {
             System.out.println(key + " is found at index " + i);
-
         } else {
             System.out.println(key + " is not found");
         }
