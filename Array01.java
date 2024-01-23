@@ -6,8 +6,6 @@ public class Array01 {
             System.out.println(x);
         }
 
-//        for(int i=0;i<numbers.length;i++){
-//            System.out.println(numbers[i]);
-//        }
+
     }
 }
