@@ -31,8 +31,7 @@ public class Circle {
         this.color = color;
     }
     public double calculateArea() {
-        double v= (this.radius * (PI*PI));
-        return v;
+        return (PI*radius*radius);
     }
 
     public Circle(int radius, BorderType borderType, Color color) {
