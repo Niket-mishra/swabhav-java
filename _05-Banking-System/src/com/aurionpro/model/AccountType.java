@@ -1,2 +1,7 @@
-package com.aurionpro.model;public class AccountType {
+package com.aurionpro.model;
+
+public enum AccountType {
+    SAVINGS,
+    CURRENT,
+
 }
