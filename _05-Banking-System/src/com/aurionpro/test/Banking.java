@@ -21,7 +21,7 @@ public class Banking {
             System.out.println("Transaction successful");
             System.out.println(account);
         } else {
-            System.out.println("Transaction Failed(Insufficient balance), for amount " + amount);
+            System.out.println("Transaction Failed due to Insufficient balance, for amount " + amount);
             System.out.println("Your Balance is " + account.getBalance());
         }
 
