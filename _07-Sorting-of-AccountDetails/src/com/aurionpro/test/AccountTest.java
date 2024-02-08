@@ -20,8 +20,6 @@ public class AccountTest {
 
     private static void printAccountDetails(Account[] accounts) {
         for (Account x : accounts) {
-
-
             System.out.println("ID :" + x.getAccountNumber());
             System.out.println("Name :" + x.getName());
             System.out.println("Account Type :" + x.getAccountType());
