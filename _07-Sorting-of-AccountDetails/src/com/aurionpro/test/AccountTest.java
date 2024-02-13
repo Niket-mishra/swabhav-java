@@ -3,6 +3,8 @@ package com.aurionpro.test;
 import com.aurionpro.model.Account;
 import com.aurionpro.model.AccountType;
 
+import java.util.Arrays;
+
 public class AccountTest {
     public static void main(String[] args) {
         Account[] accounts = {
@@ -13,9 +15,9 @@ public class AccountTest {
                 new Account(5, "Satish", 40000, AccountType.SAVINGS),
 
         };
-        sortAccounts(accounts);
+//        sortAccounts(accounts);
         printAccountDetails(accounts);
-
+        Arrays.sort( accounts,0,4);
     }
 
     private static void printAccountDetails(Account[] accounts) {
