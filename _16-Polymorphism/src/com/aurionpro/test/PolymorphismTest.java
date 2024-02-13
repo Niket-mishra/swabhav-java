@@ -23,11 +23,11 @@ public class PolymorphismTest {
         m1.sleep();
         m1.read();
 //------------------ Case 3 ---------------------
-System.out.println("------------------ Case 3 ---------------------");
+        System.out.println("------------------ Case 3 ---------------------");
         Human h2 = new Kid();
         h2.eat();
         h2.play();
         h2.sleep();
-@
+        @
     }
 }
