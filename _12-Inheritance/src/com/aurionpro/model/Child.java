@@ -1,10 +1,8 @@
-package com.aurionpro.test;
+package com.aurionpro.model;
 
-import com.aurionpro.model.Parent;
-
-public class Child  extends Parent{
+public class Child  {
     public void childGreet(){
         System.out.println("Welcome from child");
-        System.out.println("Print message from parent :"+ message);
+        System.out.println("Print message from parent :"+ new Parent().message);
     }
 }
