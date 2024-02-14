@@ -8,9 +8,11 @@ public class SavingsAccount extends Account {
     private final double MIN_BALANCE = 1000;
 
     @Override
-    public void withdraw(double amount) {
+    public boolean withdraw(double amount) {
         if (this.getBalance() - amount >= MIN_BALANCE) {
             setBalance(this.getBalance() - amount);
-        } else System.out.println("Insufficient Balance");
+            return true;
+        }
+        return false;
     }
 }

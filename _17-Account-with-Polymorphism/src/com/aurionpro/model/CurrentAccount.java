@@ -6,10 +6,11 @@ public class CurrentAccount extends Account{
     }
    private final double OVER_DRAFT=10000;
     @Override
-    public void withdraw(double amount){
+    public boolean withdraw(double amount){
         if (amount <= (OVER_DRAFT+ getBalance())) {
             setBalance(getBalance() - amount);
+            return true;
         }
-        else System.out.println("Amount Exceeded OverDraft Limit");
+        return false;
     }
 }
