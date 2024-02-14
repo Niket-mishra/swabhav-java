@@ -4,8 +4,6 @@ import com.aurionpro.model.Human;
 import com.aurionpro.model.Kid;
 import com.aurionpro.model.Man;
 
-import java.lang.annotation.Inherited;
-
 public class PolymorphismTest {
     public static void main(String[] args) {
 
@@ -28,6 +26,30 @@ public class PolymorphismTest {
         h2.eat();
         h2.play();
         h2.sleep();
-        @
+
+//------------------ Case 4 ---------------------
+        System.out.println("------------------ Case 4 ---------------------");
+        playInPark(new Human());
+        playInPark(new Man());
+        playInPark(new Kid());
+
+//------------------ Case 5 ---------------------
+        System.out.println("------------------ Case 5 ---------------------");
+        readInLibrary(new Human());
+        readInLibrary(new Man());
+        readInLibrary(new Kid());
+    }
+
+    private static void readInLibrary(Human human) {
+        if (human instanceof Man) {
+            Man man = (Man) human;
+            man.read();
+        } else System.out.println("This Humans Can't Read");
+    }
+
+    private static void playInPark(Object human) {
+        if (human instanceof Human) {
+            ((Human) human).play();
+        }
     }
 }
