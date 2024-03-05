@@ -34,7 +34,7 @@ public class Game {
             System.out.println("----------------------------------------------------");
 
         }
-        System.out.println(player.getName()+" Gane Ends ");
+        System.out.println(player.getName()+" Game Ends ");
         System.out.println("----------------------------------------------------");
         System.out.println();
 
