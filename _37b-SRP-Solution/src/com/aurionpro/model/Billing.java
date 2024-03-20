@@ -5,5 +5,7 @@ public class Billing {
     public  double calculateDiscount(Invoice e){
         return e.getDiscountPercent()*e.getAmount();
     }
-
+    public double calculateTotal(Invoice e){
+        return e.getAmount()+calculateTax(e)-calculateDiscount(e);
+    }
 }
