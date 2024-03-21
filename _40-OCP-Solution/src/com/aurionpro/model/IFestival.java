@@ -1,2 +1,5 @@
-package com.aurionpro.model;public interface IFestival {
+package com.aurionpro.model;
+
+public interface IFestival {
+    public double getInterestRates();
 }

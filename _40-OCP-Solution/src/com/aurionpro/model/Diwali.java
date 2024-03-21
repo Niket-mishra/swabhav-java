@@ -1,2 +1,8 @@
-package com.aurionpro.model;public class Diwali {
+package com.aurionpro.model;
+
+public class Diwali implements IFestival{
+    @Override
+    public double getInterestRates() {
+        return 9.50;
+    }
 }
