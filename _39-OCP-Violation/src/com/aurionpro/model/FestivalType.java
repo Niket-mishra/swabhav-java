@@ -1,2 +1,9 @@
-package com.aurionpro.model;public enum FestivalType {
+package com.aurionpro.model;
+
+public enum FestivalType {
+    DIWALI,
+    CHRISTMAS,
+    EID,
+    NEWYEAR,
+    GENERAL;
 }
