@@ -1,2 +1,8 @@
-package PACKAGE_NAME;public interface IWorker {
+package com.aurionpro.model;
+
+public interface IWorker {
+    void startWork();
+    void stopWork();
+    void eat();
+    void drink();
 }
