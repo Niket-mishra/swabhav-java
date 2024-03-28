@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public interface IHotel {
+public interface IHotel {
+    IMenu getMenu();
+
 }

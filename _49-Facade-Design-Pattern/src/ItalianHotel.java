@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class ItalianHotel {
+public class ItalianHotel implements IHotel{
+    @Override
+    public IMenu getMenu() {
+        return new ItalianMenu();
+    }
 }

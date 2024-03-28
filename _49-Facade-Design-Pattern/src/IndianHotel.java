@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class IndianHotel {
+public class IndianHotel implements IHotel{
+    @Override
+    public IMenu getMenu() {
+        return new IndianMenu();
+    }
 }
