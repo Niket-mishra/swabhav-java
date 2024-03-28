@@ -3,7 +3,7 @@ package com.aurionpro.model;
 import java.io.Serializable;
 
 public class Singleton implements Serializable {
-    private static Singleton singleton = new Singleton();
+    private static Singleton singleton =  Singleton.getInstance();
 
     private Singleton() {
     }
