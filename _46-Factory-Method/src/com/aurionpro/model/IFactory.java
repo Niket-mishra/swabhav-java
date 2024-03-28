@@ -1,2 +1,5 @@
-package com.aurionpro.model;public interface IFactory {
+package com.aurionpro.model;
+
+public interface IFactory {
+    public ICars makeCars();
 }
