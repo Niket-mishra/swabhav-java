@@ -1,4 +1,4 @@
-// Java code to demonstrate Builder Pattern
+package com.aurionpro.test;// Java code to demonstrate Builder Pattern
 
 // Server Side Code
 final class Student {
@@ -73,29 +73,17 @@ class StudentReceiver {
     public StudentReceiver()
     {
 
-        Thread t1 = new Thread(new Runnable() {
-            @Override
-            public void run()
-            {
-                student = Student.Builder.newInstance()
-                        .setId(1)
-                        .setName("Ram")
-                        .setAddress("Noida")
-                        .build();
-            }
-        });
+        Thread t1 = new Thread(() -> student = Student.Builder.newInstance()
+                .setId(1)
+                .setName("Ram")
+                .setAddress("Noida")
+                .build());
 
-        Thread t2 = new Thread(new Runnable() {
-            @Override
-            public void run()
-            {
-                student = Student.Builder.newInstance()
-                        .setId(2)
-                        .setName("Shyam")
-                        .setAddress("Delhi")
-                        .build();
-            }
-        });
+        Thread t2 = new Thread(() -> student = Student.Builder.newInstance()
+                .setId(2)
+                .setName("Shyam")
+                .setAddress("Delhi")
+                .build());
 
         t1.start();
         t2.start();
@@ -109,7 +97,7 @@ class StudentReceiver {
 
 // Driver class
 public class BuilderDemo {
-    public static void main(String args[])
+    public static void main(String[] args)
     {
         StudentReceiver sr = new StudentReceiver();
         System.out.println(sr.getStudent());
