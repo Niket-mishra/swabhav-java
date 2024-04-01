@@ -13,7 +13,6 @@ import com.aurionpro.model.Important;
 public class AnnotationtTest {
     @SuppressWarnings({"rawtypes", "unchecked"})
     public static void main(String[] args) {
-        String name = "Niket";
 
         Class c = null;
         try {

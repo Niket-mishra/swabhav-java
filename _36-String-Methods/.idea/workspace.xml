@@ -1,11 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="46f05161-647b-44bc-b141-bf6900700b48" name="Changes" comment="" />
+    <list default="true" id="46f05161-647b-44bc-b141-bf6900700b48" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_36-String-Methods.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_37a-SRP-Violation-app/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_37a-SRP-Violation-app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_37a-SRP-Violation-app/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_37a-SRP-Violation-app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_37a-SRP-Violation-app/_37a-SRP-Violation-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_37a-SRP-Violation-app/src/com/aurionpro/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_37a-SRP-Violation-app/src/com/aurionpro/model/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_37a-SRP-Violation-app/src/com/aurionpro/test/EmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_37a-SRP-Violation-app/src/com/aurionpro/test/InvoiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_08-Player-app/src/com/aurionpro/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_08-Player-app/src/com/aurionpro/model/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_08-Player-app/src/com/aurionpro/test/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_08-Player-app/src/com/aurionpro/test/PlayerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_19-Interface/src/com/aurionpro/model/Boy.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_19-Interface/src/com/aurionpro/model/Boy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_19-Interface/src/com/aurionpro/model/IEmotionable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_19-Interface/src/com/aurionpro/model/IEmotionable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_19-Interface/src/com/aurionpro/model/IMannerable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_19-Interface/src/com/aurionpro/model/IMannerable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_19-Interface/src/com/aurionpro/model/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_19-Interface/src/com/aurionpro/model/Man.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_19-Interface/src/com/aurionpro/test/InterfaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_19-Interface/src/com/aurionpro/test/InterfaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_20-Collections/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_20-Collections/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_20-Collections/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_20-Collections/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_20-Collections/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../_20-Collections/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_20-Collections/_21-Collections.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_20-Collections/src/com/aurionpro/test/Collections.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_20-Interface-abstract-app/src/com/aurionpro/model/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_20-Interface-abstract-app/src/com/aurionpro/model/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_20-Interface-abstract-app/src/com/aurionpro/model/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_20-Interface-abstract-app/src/com/aurionpro/model/Bus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_20-Interface-abstract-app/src/com/aurionpro/model/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_20-Interface-abstract-app/src/com/aurionpro/model/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_20-Interface-abstract-app/src/com/aurionpro/model/IMovable.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_20-Interface-abstract-app/src/com/aurionpro/model/IMovable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_20-Interface-abstract-app/src/com/aurionpro/model/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_20-Interface-abstract-app/src/com/aurionpro/model/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_20-Interface-abstract-app/src/com/aurionpro/test/MovableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_20-Interface-abstract-app/src/com/aurionpro/test/MovableTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_24-Student-Map/src/com/aurionpro/model/StudentMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_24-Student-Map/src/com/aurionpro/model/StudentMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_24-Student-Map/src/com/aurionpro/test/StudentNewMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_24-Student-Map/src/com/aurionpro/test/StudentNewMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_25-Account-Set/src/com/aurionpro/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_25-Account-Set/src/com/aurionpro/model/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_25-Account-Set/src/com/aurionpro/test/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_25-Account-Set/src/com/aurionpro/test/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_25-Key-Count/src/com/aurionpro/model/KeyCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_25-Key-Count/src/com/aurionpro/model/KeyCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_25-Key-Count/src/com/aurionpro/test/KeyCountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_25-Key-Count/src/com/aurionpro/test/KeyCountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_26-PRoject/src/com/aurionpro/model/Countries.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_26-PRoject/src/com/aurionpro/model/Countries.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_26-PRoject/src/com/aurionpro/model/CountriesList.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../_26-PRoject/src/com/aurionpro/model/CountriesList.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_26-PRoject/src/com/aurionpro/model/Regions.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_26-PRoject/src/com/aurionpro/model/Regions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_26-PRoject/src/com/aurionpro/model/Regions.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../_26-PRoject/src/com/aurionpro/model/Regions.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_26-PRoject/src/com/aurionpro/model/TextFileToHashMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_26-PRoject/src/com/aurionpro/model/TextFileToHashMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_26-PRoject/src/com/aurionpro/test/MapMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_26-PRoject/src/com/aurionpro/test/MapMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../_35-Custom-Annotations/src/com/aurionpro/test/AnnotationtTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_35-Custom-Annotations/src/com/aurionpro/test/AnnotationtTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
@@ -19,9 +73,17 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-4caba194b151-107bc6b7" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

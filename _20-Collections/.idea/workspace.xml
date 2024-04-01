@@ -15,6 +15,7 @@
       <change afterPath="$PROJECT_DIR$/../_19-Interface/src/com/aurionpro/model/IMannerable.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../_19-Interface/src/com/aurionpro/model/Man.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../_19-Interface/src/com/aurionpro/test/InterfaceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../_20-Interface-abstract-app/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../_20-Interface-abstract-app/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../_20-Interface-abstract-app/.idea/modules.xml" afterDir="false" />
@@ -27,6 +28,7 @@
       <change afterPath="$PROJECT_DIR$/../_20-Interface-abstract-app/src/com/aurionpro/model/IMovable.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../_20-Interface-abstract-app/src/com/aurionpro/model/Vehicle.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../_20-Interface-abstract-app/src/com/aurionpro/test/MovableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../_21-Collections/_21-Collections.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../_21-Collections/src/com/aurionpro/test/List.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../_08-Player-app/src/com/aurionpro/model/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_08-Player-app/src/com/aurionpro/model/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../_08-Player-app/src/com/aurionpro/test/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../_08-Player-app/src/com/aurionpro/test/PlayerTest.java" afterDir="false" />

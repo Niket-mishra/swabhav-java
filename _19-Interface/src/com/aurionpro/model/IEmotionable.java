@@ -1,2 +1,8 @@
-package com.aurionpro.model;public class IEmotionable {
+package com.aurionpro.model;
+
+public interface IEmotionable {
+    void laugh();
+
+    void cry();
+
 }
