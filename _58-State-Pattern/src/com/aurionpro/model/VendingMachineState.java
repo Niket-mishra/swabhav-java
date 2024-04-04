@@ -1,2 +1,5 @@
-package com.aurionpro.model;public interface VendingMachineState {
+package com.aurionpro.model;
+
+public interface VendingMachineState {
+    void handleRequest();
 }
